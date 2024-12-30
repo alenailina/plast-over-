@@ -1,0 +1,247 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family:'Random Grotesque Spacious Book';
+}
+
+@font-face {
+    font-family: 'Random Grotesque Spacious Book';
+    src: url('fonts/RG-SpaciousBook.eot');
+    src: url('fonts/RG-SpaciousBook.eot?#iefix') format('embedded-opentype'),
+        url('fonts/aciousBook.woff2') format('woff2'),
+        url('fonts/RG-SpaciousBook.woff') format('woff'),
+        url('fonts/RG-SpaciousBook.ttf') format('truetype'),
+        url('fonts/RG-SpaciousBook.svg#RG-SpaciousBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    background-color: #000000;
+    color: #fff;
+
+}
+
+.container {
+     width: 1440px;
+     margin: 0 auto;
+}
+
+.adres-container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.adres {
+     background-color:#000000; 
+     display: flex;
+     justify-content: center; 
+     align-items: center; 
+     height: 136px; 
+     width: 100%;
+     text-align: center; 
+     font-size: 25px;
+}
+.adres a {
+margin: 25px;
+color: #4CBDE5; 
+}
+.robot {
+     margin-left: auto;
+     margin-right: auto;
+     width: 1440px;
+     height: 636;
+     margin-bottom: 100px;
+ }
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+    height: 264px;
+}
+
+.block {
+    background-color: #1E1EE0; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0 10px; 
+    font-size: 36px;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+.block:hover {
+    transform: scale(1.05);
+}
+
+.block-title {
+    font-size: 96px;
+}
+
+.block-description {
+    text-align: center;
+}
+
+.block-1 {
+    border-radius: 0 50px 50px 0;
+}
+.block-2 {
+    border-radius: 50px;
+}
+.block-3 {
+    border-radius: 50px 0 0 50px;
+}
+.infa {
+    padding: 20px; 
+    background-color: #000000; 
+    border: 1px; 
+}
+.infa h2 {
+    margin: 0 0 10px; 
+    font-size: 64px;
+}
+.infa p {
+    margin: 0 0 15px; 
+    font-size: 30px;
+}
+.img2 {   
+    height: 431px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+.h9 {
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    color: #4CBDE5;
+}
+.kvadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1535px;
+    background-color: black;
+    margin: 100px;
+}
+.kvadro-content {
+    display: grid;
+    grid-template-columns: repeat(2, 618px);
+    grid-template-rows: repeat(2, 618px);
+    gap: 100px;
+}
+.kva {
+    background-color: blue;
+    width: 618px;
+    height: 618px;
+    border-radius: 55px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.kva:hover {
+    transform: scale(1.05);
+}
+.texno{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.texno h3 {
+    font-size: 64px;
+    font-weight: 400;
+}
+.grid-item {
+   margin-left: 62px;
+}
+
+.texno-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.texno-item p {
+    padding-left: 39px;
+    font-size: 36px;
+    color: #4CBDE5;
+    cursor: pointer;
+}
+.texno-item p:hover {
+    transform: scale(1.05);
+}
+.item.img {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+.h3 {
+    font-size: 64px;
+
+}
+.merch {
+    min-height: 584px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.merch_1 {
+    min-width: 500px;
+    margin: 0 auto;
+}
+.merch-content {
+    display: inline-block;
+    align-items: center;
+    margin-top: 57px;
+}
+.ima11 {
+    display: flex;
+    width: 1440px;
+    height:896px;
+    background-image: url(pictures/banki.png);
+    background-size: cover;
+}
+.ima22 {
+    display: flex;
+    width: 1440px;
+    height:896px;
+    background-image: url(pictures/bag.png);
+    background-size: cover;
+}
+.ima33 {
+    display: flex;
+    width: 1440px;
+    height:896px;
+    background-image: url(pictures/perchatki.png);
+    background-size: cover;
+}
+.h4 {
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    color: #4CBDE5;
+    text-decoration: underline;
+}
+.address-block {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    margin: 20px;
+    font-size: 32px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.address-block div {
+    flex: 1;
+}
+.address-block a {
+    margin: 5px;
+    color: #fff; 
+    text-decoration: none;
+}

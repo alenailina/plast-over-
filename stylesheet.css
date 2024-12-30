@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Random Grotesque Spacious Book';
+    src: url('RG-SpaciousBook.eot');
+    src: url('RG-SpaciousBook.eot?#iefix') format('embedded-opentype'),
+        url('RG-SpaciousBook.woff2') format('woff2'),
+        url('RG-SpaciousBook.woff') format('woff'),
+        url('RG-SpaciousBook.ttf') format('truetype'),
+        url('RG-SpaciousBook.svg#RG-SpaciousBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
